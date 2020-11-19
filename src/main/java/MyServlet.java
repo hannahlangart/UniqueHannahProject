@@ -10,7 +10,7 @@ public class MyServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html");
-        resp.getWriter().write("http://help.websiteos.com/websiteos/example_of_a_simple_html_page.htm");
+        resp.getWriter().write("https://www.dummies.com/web-design-development/site-development/a-sample-web-page-in-html/");
     }
 
     @Override
